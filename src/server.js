@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(compression());
 app.use(cors({
-        origin: ['http://localhost:5173', 'http://localhost:4173', 'https://beliverrfront.vercel.app'],
+        origin: ['http://localhost:5173', 'http://localhost:4173', 'https://beliverrfront.vercel.app','https://tiny-babka-20fb8d.netlify.app'],
         credentials: true
 }));
 
